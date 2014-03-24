@@ -20,9 +20,9 @@ into your Controllers. As far as you extends your database management class with
 
 The file *config/bootstrap.php* contains :
 
-1. Add your specific Doctrine 2 configurations
+#####Add your specific Doctrine 2 configurations
 
-2. Database parameters :
+#####Database parameters :
 ```php
 	$dbParams = array(
     'driver'   => 'pdo_mysql',
@@ -33,9 +33,9 @@ The file *config/bootstrap.php* contains :
 ```
 *note that Doctrine doesn't create your database automatically, you must create it manualy*
 
-3. "ENVIRONMENT" constant which is used in Logging injection to chose the configuration file (cf [Loggin](#logging-))
+#####"ENVIRONMENT" constant which is used in Logging injection to chose the configuration file (cf [Loggin](#logging-))
 
-4. Namespaces registration : 
+#####Namespaces registration : 
 
 If you want to include other Directories such as *exception* for example, register this new namespace like that :
 ```php
@@ -43,7 +43,7 @@ $loader = new ClassLoader( 'exception', BASE_DIR);
 $loader->register();
 ```
 
-5. Argument :
+#####Argument :
 
 Add your functions requiring arguments in the file *config/arguments-required.php*. Following this form : 
 
