@@ -1,9 +1,5 @@
 <?php
 
-// bootstrap.php
-require_once "vendor/autoload.php";
-//logging framework
-require_once 'lib/KLogger.php';
 
 use Doctrine\ORM\Tools\Setup,
     Doctrine\DBAL\Logging\EchoSQLLogger as Logger,
@@ -13,30 +9,25 @@ use Doctrine\ORM\Tools\Setup,
     Doctrine\Common\Annotations\AnnotationRegistry,
     Doctrine\Common\ClassLoader;
 
-
-$isDevMode = true;
-
-//KLogger configurations 
-$logLevel = KLogger::ERROR;
-$logPath = "logs/eventer.log";
-
 // the connection configuration
 $dbParams = array(
     'driver'   => 'pdo_mysql',
-    'user'     => 'cli_eventer',
+    'user'     => 'cli_example',
     'password' => 'abc',
-    'dbname'   => 'eventer',
+    'dbname'   => 'example',
 );
 
+defined("ENVIRONMENT") || define('ENVIRONMENT',   "DEVELOPMENT");
+
 //autoloading
-require_once __DIR__ . '/../vendor/autoload.php';
-$loader = new ClassLoader('entity', __DIR__ . '/../');
+require_once ( dirname(__FILE__) . '/../vendor/autoload.php');
+
+// register namespaces
+$loader = new ClassLoader( 'entity', BASE_DIR);
 $loader->register();
-$loader = new ClassLoader('object', __DIR__ . '/../');
+$loader = new ClassLoader( 'src', BASE_DIR);
 $loader->register();
-$loader = new ClassLoader('repository', __DIR__ . '/../');
-$loader->register();
-$loader = new ClassLoader('exception', __DIR__ . '/../');
+$loader = new ClassLoader( 'repository', BASE_DIR);
 $loader->register();
 
 //configuration
@@ -46,10 +37,6 @@ $config->setQueryCacheImpl($cache);
 $config->setProxyDir(__DIR__ . '/../.entityproxy');
 $config->setProxyNamespace('.entityproxy');
 $config->setAutoGenerateProxyClasses(true);
-
-/*$logger = new Logger();
-$config->setSQLLogger($logger);
-$config->getSQLLogger();*/
 
 //mapping (example uses annotations, could be any of XML/YAML or plain PHP)
 AnnotationRegistry::registerFile(

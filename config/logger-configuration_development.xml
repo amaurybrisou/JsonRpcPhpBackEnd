@@ -1,0 +1,30 @@
+<configuration xmlns="http://logging.apache.org/log4php/">
+    <!-- More info at this url : http://logging.apache.org/log4php/docs/ -->
+     <appender name="FileAppender" class="LoggerAppenderRollingFile">
+        <param name="file" value="/home/erol/php/personal_projets/PhpBackEnd/log/example/example.log" />
+        <param name="maxFileSize" value="1MB" />
+        <param name="maxBackupIndex" value="5" />
+        <param name="compress" value="true" />
+        <param name="append" value="true" />
+
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d\TH:i:s\Z} %-5level %l  %msg%n" />
+        </layout>
+        
+    </appender>
+
+    <!-- Sampler Rsyslog Configuration -->
+    
+    <appender name="rsyslogAppender" class="LoggerAppenderSocket">
+        <param name="remoteHost" value="localhost" />
+        <param name="port" value="51400" />
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{'Y-m-d\TH:i:s\Z'} :  %-5level %l From : %server{SERVER_NAME}:%server{REMOTE_PORT} %msg%n" />
+        </layout>
+    </appender>
+
+    <root>
+        <level value="DEBUG" />
+        <appender_ref ref="FileAppender" />
+    </root>
+</configuration>

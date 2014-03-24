@@ -1,0 +1,76 @@
+2014-03-24T12:39:53Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:27)  Parsing Json Request
+2014-03-24T12:39:53Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:42)  Json Parsing : OK
+2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
+2014-03-24T12:39:53Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "handle" arguments checking
+2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param method
+2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  method appear : OK
+2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param jsonrpc
+2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  jsonrpc appear : OK
+2014-03-24T12:39:53Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call handle are presents
+2014-03-24T12:39:53Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:46)  Calling method AddExample
+2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
+2014-03-24T12:39:53Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "AddExample" arguments checking
+2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param name
+2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  name appear : OK
+2014-03-24T12:39:53Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call AddExample are presents
+2014-03-24T12:39:53Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:71)  Sending Response Back
+2014-03-24T12:40:19Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:27)  Parsing Json Request
+2014-03-24T12:40:19Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:42)  Json Parsing : OK
+2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
+2014-03-24T12:40:19Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "handle" arguments checking
+2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param method
+2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  method appear : OK
+2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param jsonrpc
+2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  jsonrpc appear : OK
+2014-03-24T12:40:19Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call handle are presents
+2014-03-24T12:40:19Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:46)  Calling method AddExample
+2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
+2014-03-24T12:40:19Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "AddExample" arguments checking
+2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param name
+2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  name appear : OK
+2014-03-24T12:40:19Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call AddExample are presents
+2014-03-24T12:40:20Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:71)  Sending Response Back
+2014-03-24T12:41:29Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:27)  Parsing Json Request
+2014-03-24T12:41:29Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:42)  Json Parsing : OK
+2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
+2014-03-24T12:41:29Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "handle" arguments checking
+2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param method
+2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  method appear : OK
+2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param jsonrpc
+2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  jsonrpc appear : OK
+2014-03-24T12:41:29Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call handle are presents
+2014-03-24T12:41:29Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:46)  Calling method AddExample
+2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
+2014-03-24T12:41:29Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "AddExample" arguments checking
+2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param name
+2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  name appear : OK
+2014-03-24T12:41:29Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call AddExample are presents
+2014-03-24T12:41:29Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:71)  Sending Response Back
+2014-03-24T12:41:41Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:27)  Parsing Json Request
+2014-03-24T12:41:41Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:42)  Json Parsing : OK
+2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
+2014-03-24T12:41:41Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "handle" arguments checking
+2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param method
+2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  method appear : OK
+2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param jsonrpc
+2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  jsonrpc appear : OK
+2014-03-24T12:41:41Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call handle are presents
+2014-03-24T12:41:41Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:46)  Calling method AddExample
+2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
+2014-03-24T12:41:41Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "AddExample" arguments checking
+2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param name
+2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  name appear : OK
+2014-03-24T12:41:41Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call AddExample are presents
+2014-03-24T12:41:41Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:71)  Sending Response Back
+2014-03-24T12:46:29Z FATAL src\JsonRPCServer.handle(/home/erol/php/personal_projets/PhpBackEnd/src/JsonRPCServer.php:22)  Not a JSON-RPC Request
+2014-03-24T12:54:49Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/PhpBackEnd/src/JsonRPCServer.php:27)  Parsing Json Request
+2014-03-24T12:54:49Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/PhpBackEnd/src/JsonRPCServer.php:42)  Json Parsing : OK
+2014-03-24T12:54:49Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:25)  Checking arguments
+2014-03-24T12:54:49Z INFO  src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:31)  Method "handle" arguments checking
+2014-03-24T12:54:49Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:35)  Checking param method
+2014-03-24T12:54:49Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:39)  method appear : OK
+2014-03-24T12:54:49Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:35)  Checking param jsonrpc
+2014-03-24T12:54:49Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:39)  jsonrpc appear : OK
+2014-03-24T12:54:49Z INFO  src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:42)  All parameters required to call handle are presents
+2014-03-24T12:54:49Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/PhpBackEnd/src/JsonRPCServer.php:46)  Calling method my_echo
+2014-03-24T12:54:49Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/PhpBackEnd/src/JsonRPCServer.php:71)  Sending Response Back
