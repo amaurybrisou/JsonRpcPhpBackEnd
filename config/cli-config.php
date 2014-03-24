@@ -1,10 +1,4 @@
 <?php
-
-// replace with file to your own project bootstrap
-require_once ("bootstrap.php");
-// replace with mechanism to retrieve EntityManager in your app
-// $entityManager = GetEntityManager();
-
 use Symfony\Component\Console\Helper\HelperSet,
     Doctrine\ORM\Tools\Console\Helper\EntityManagerHelper,
     Doctrine\DBAL\Tools\Console\Helper\ConnectionHelper,
@@ -16,3 +10,5 @@ $helperSet = new HelperSet(array(
     'conn' => new ConnectionHelper($em->getConnection())
 ));
 ConsoleRunner::run($helperSet);
+
+?>

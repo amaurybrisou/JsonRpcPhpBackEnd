@@ -1,8 +1,7 @@
 <?php
 
-namespace src;
-use src\ExampleException;
-
+namespace Erol;
+use Erol\JsonRpcException;
 
 class JsonRPCServer {
 	/**
@@ -33,7 +32,7 @@ class JsonRPCServer {
 			if(is_null($request)){
 				$request['id'] = 'unkown';
 				$logger->fatal("Json Parse Error");
-				throw ExampleException::raise(ExampleException::PARSE_ERROR, "parsing error");
+				throw new JsonRpcException("Json Parsing Error", -32823);
 			} 
 			/*if(empty($request['id'])){
 				$request['id'] = 'unkown';
@@ -57,7 +56,7 @@ class JsonRPCServer {
 								'result' => $result);	
 			}
 			
-		} catch (ExampleException $e) {
+		} catch (JsonRpcException $e) {
 			$logger->error("ErrorCode : ".$e->getCode() . ' : ' .$e->getMessage());
 			$response = array (
 								'jsonrpc' => "2.0",

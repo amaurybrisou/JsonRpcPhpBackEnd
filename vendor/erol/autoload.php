@@ -16,4 +16,12 @@ Logger::configure( CONFIG_DIR . 'logger-configuration_'.
 // Fetch a logger, it will inherit settings from the root logger
 $logger = Logger::getLogger('ErolLogger');
 
+//load required a arguments
+require_once (CONFIG_DIR . '/arguments-required.php');
+
+
+//add jsonRPC 2.0 specific arguments
+$required_fields["handle"] = array(
+	"jsonrpc" => -32821,
+	"method" => -32822);
 ?>

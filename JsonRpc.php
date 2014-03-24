@@ -8,11 +8,9 @@
 
 	use entity\EntityEvent,
 		src\Example,
-		src\JsonRPCServer;
-
-
+		Erol\JsonRPCServer;
 
 	$app = new Example();
-	jsonRPCServer::handle($app) or print 'no request';
+	jsonRPCServer::handle($app) or print '<html>404</html>';
 
 ?>

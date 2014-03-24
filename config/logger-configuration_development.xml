@@ -1,7 +1,7 @@
 <configuration xmlns="http://logging.apache.org/log4php/">
     <!-- More info at this url : http://logging.apache.org/log4php/docs/ -->
      <appender name="FileAppender" class="LoggerAppenderRollingFile">
-        <param name="file" value="/home/erol/php/personal_projets/PhpBackEnd/log/example/example.log" />
+        <param name="file" value="/home/erol/php/personal_projets/JsonRpcPhpBackEnd/log/example/example.log" />
         <param name="maxFileSize" value="1MB" />
         <param name="maxBackupIndex" value="5" />
         <param name="compress" value="true" />

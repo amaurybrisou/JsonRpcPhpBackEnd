@@ -1,0 +1,6 @@
+{
+	"method": "my_echo",
+	"params": "Hello World !",
+	"jsonrpc": "2.0",
+	"id": 2
+}

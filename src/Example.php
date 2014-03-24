@@ -2,8 +2,8 @@
 
 namespace src;
 use Doctrine\DBAL\DBALException,
-	src\Arguments,
-	src\ExampleException,
+	Erol\Arguments,
+	Erol\JsonRpcException,
 	Erol\ContainerAware,
 	entity\EntityExample;
 
@@ -24,7 +24,7 @@ class Example extends ContainerAware {
 			$this->em->flush();
 
 		} catch(DBALException $e){
-			throw ExampleException::raise($e->getCode());
+			throw JsonRpcException::raise($e/** , optional message **/);
 		}
 
 		return array("example_id" => $exemple->getExampleId());

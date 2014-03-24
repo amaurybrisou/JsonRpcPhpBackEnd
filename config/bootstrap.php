@@ -21,7 +21,6 @@ defined("ENVIRONMENT") || define('ENVIRONMENT',   "DEVELOPMENT");
 
 //autoloading
 require_once ( dirname(__FILE__) . '/../vendor/autoload.php');
-
 // register namespaces
 $loader = new ClassLoader( 'entity', BASE_DIR);
 $loader->register();

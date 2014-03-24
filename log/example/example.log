@@ -1,76 +1,442 @@
-2014-03-24T12:39:53Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:27)  Parsing Json Request
-2014-03-24T12:39:53Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:42)  Json Parsing : OK
-2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
-2014-03-24T12:39:53Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "handle" arguments checking
-2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param method
-2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  method appear : OK
-2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param jsonrpc
-2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  jsonrpc appear : OK
-2014-03-24T12:39:53Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call handle are presents
-2014-03-24T12:39:53Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:46)  Calling method AddExample
-2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
-2014-03-24T12:39:53Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "AddExample" arguments checking
-2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param name
-2014-03-24T12:39:53Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  name appear : OK
-2014-03-24T12:39:53Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call AddExample are presents
-2014-03-24T12:39:53Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:71)  Sending Response Back
-2014-03-24T12:40:19Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:27)  Parsing Json Request
-2014-03-24T12:40:19Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:42)  Json Parsing : OK
-2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
-2014-03-24T12:40:19Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "handle" arguments checking
-2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param method
-2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  method appear : OK
-2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param jsonrpc
-2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  jsonrpc appear : OK
-2014-03-24T12:40:19Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call handle are presents
-2014-03-24T12:40:19Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:46)  Calling method AddExample
-2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
-2014-03-24T12:40:19Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "AddExample" arguments checking
-2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param name
-2014-03-24T12:40:19Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  name appear : OK
-2014-03-24T12:40:19Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call AddExample are presents
-2014-03-24T12:40:20Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:71)  Sending Response Back
-2014-03-24T12:41:29Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:27)  Parsing Json Request
-2014-03-24T12:41:29Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:42)  Json Parsing : OK
-2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
-2014-03-24T12:41:29Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "handle" arguments checking
-2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param method
-2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  method appear : OK
-2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param jsonrpc
-2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  jsonrpc appear : OK
-2014-03-24T12:41:29Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call handle are presents
-2014-03-24T12:41:29Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:46)  Calling method AddExample
-2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
-2014-03-24T12:41:29Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "AddExample" arguments checking
-2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param name
-2014-03-24T12:41:29Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  name appear : OK
-2014-03-24T12:41:29Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call AddExample are presents
-2014-03-24T12:41:29Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:71)  Sending Response Back
-2014-03-24T12:41:41Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:27)  Parsing Json Request
-2014-03-24T12:41:41Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:42)  Json Parsing : OK
-2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
-2014-03-24T12:41:41Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "handle" arguments checking
-2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param method
-2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  method appear : OK
-2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param jsonrpc
-2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  jsonrpc appear : OK
-2014-03-24T12:41:41Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call handle are presents
-2014-03-24T12:41:41Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:46)  Calling method AddExample
-2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:25)  Checking arguments
-2014-03-24T12:41:41Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:31)  Method "AddExample" arguments checking
-2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:35)  Checking param name
-2014-03-24T12:41:41Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:39)  name appear : OK
-2014-03-24T12:41:41Z INFO  src\Arguments.check(/home/erol/php/personal_projets/unkown/src/Arguments.php:42)  All parameters required to call AddExample are presents
-2014-03-24T12:41:41Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/unkown/src/JsonRPCServer.php:71)  Sending Response Back
-2014-03-24T12:46:29Z FATAL src\JsonRPCServer.handle(/home/erol/php/personal_projets/PhpBackEnd/src/JsonRPCServer.php:22)  Not a JSON-RPC Request
-2014-03-24T12:54:49Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/PhpBackEnd/src/JsonRPCServer.php:27)  Parsing Json Request
-2014-03-24T12:54:49Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/PhpBackEnd/src/JsonRPCServer.php:42)  Json Parsing : OK
-2014-03-24T12:54:49Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:25)  Checking arguments
-2014-03-24T12:54:49Z INFO  src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:31)  Method "handle" arguments checking
-2014-03-24T12:54:49Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:35)  Checking param method
-2014-03-24T12:54:49Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:39)  method appear : OK
-2014-03-24T12:54:49Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:35)  Checking param jsonrpc
-2014-03-24T12:54:49Z DEBUG src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:39)  jsonrpc appear : OK
-2014-03-24T12:54:49Z INFO  src\Arguments.check(/home/erol/php/personal_projets/PhpBackEnd/src/Arguments.php:42)  All parameters required to call handle are presents
-2014-03-24T12:54:49Z DEBUG src\JsonRPCServer.handle(/home/erol/php/personal_projets/PhpBackEnd/src/JsonRPCServer.php:46)  Calling method my_echo
-2014-03-24T12:54:49Z INFO  src\JsonRPCServer.handle(/home/erol/php/personal_projets/PhpBackEnd/src/JsonRPCServer.php:71)  Sending Response Back
+2014-03-24T14:07:30Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:27)  Parsing Json Request
+2014-03-24T14:07:30Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:42)  Json Parsing : OK
+2014-03-24T14:07:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:07:30Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:07:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:07:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:26)  jsonrpc appear : OK
+2014-03-24T14:07:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:07:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:26)  method appear : OK
+2014-03-24T14:07:30Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:29)  All parameters required to call handle are presents
+2014-03-24T14:07:30Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:46)  Calling method AddExample
+2014-03-24T14:07:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:07:30Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:07:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:08:17Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:27)  Parsing Json Request
+2014-03-24T14:08:17Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:42)  Json Parsing : OK
+2014-03-24T14:08:17Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:08:17Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:08:17Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:08:17Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:08:17Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:08:17Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:08:17Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:08:17Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:46)  Calling method AddExample
+2014-03-24T14:08:17Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:08:17Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:08:17Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:09:11Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:27)  Parsing Json Request
+2014-03-24T14:09:11Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:42)  Json Parsing : OK
+2014-03-24T14:09:11Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:09:11Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:09:11Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:09:11Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:26)  jsonrpc appear : OK
+2014-03-24T14:09:11Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:09:11Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:26)  method appear : OK
+2014-03-24T14:09:11Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:29)  All parameters required to call handle are presents
+2014-03-24T14:09:11Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:46)  Calling method AddExample
+2014-03-24T14:09:11Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:09:11Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:09:11Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param -32
+2014-03-24T14:11:19Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:27)  Parsing Json Request
+2014-03-24T14:11:19Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:42)  Json Parsing : OK
+2014-03-24T14:11:19Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:11:19Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:11:19Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:11:19Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:26)  jsonrpc appear : OK
+2014-03-24T14:11:19Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:11:19Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:26)  method appear : OK
+2014-03-24T14:11:19Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:29)  All parameters required to call handle are presents
+2014-03-24T14:11:19Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:46)  Calling method AddExample
+2014-03-24T14:11:19Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:11:19Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:11:19Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param -10
+2014-03-24T14:11:32Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:27)  Parsing Json Request
+2014-03-24T14:11:32Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:42)  Json Parsing : OK
+2014-03-24T14:11:32Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:13)  Checking arguments
+2014-03-24T14:11:32Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:19)  Method "handle" arguments checking
+2014-03-24T14:11:32Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:23)  Checking param jsonrpc
+2014-03-24T14:11:32Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:11:32Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:23)  Checking param method
+2014-03-24T14:11:32Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:11:32Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:11:32Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:46)  Calling method AddExample
+2014-03-24T14:11:32Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:13)  Checking arguments
+2014-03-24T14:11:32Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:19)  Method "AddExample" arguments checking
+2014-03-24T14:11:32Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:23)  Checking param -10
+2014-03-24T14:21:45Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:21:45Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:40)  Json Parsing : OK
+2014-03-24T14:21:45Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:21:45Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:21:45Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param 0
+2014-03-24T14:21:45Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  0 appear : OK
+2014-03-24T14:21:45Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param 1
+2014-03-24T14:21:45Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  1 appear : OK
+2014-03-24T14:21:45Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:21:45Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:44)  Calling method AddExample
+2014-03-24T14:21:45Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:21:45Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:21:45Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:22:33Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:22:33Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:40)  Json Parsing : OK
+2014-03-24T14:22:33Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:22:33Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:22:33Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param 0
+2014-03-24T14:23:30Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:23:30Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:40)  Json Parsing : OK
+2014-03-24T14:23:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:23:30Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:23:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:23:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:23:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:23:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:23:30Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:23:30Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:44)  Calling method AddExample
+2014-03-24T14:23:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:23:30Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:23:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:25:10Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:25:10Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:40)  Json Parsing : OK
+2014-03-24T14:25:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:25:10Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:25:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:25:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:25:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:25:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:25:10Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:25:10Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:44)  Calling method AddExample
+2014-03-24T14:25:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:25:10Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:25:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:25:30Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:25:30Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:40)  Json Parsing : OK
+2014-03-24T14:25:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:25:30Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:25:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:25:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:25:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:25:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:25:30Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:25:30Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:44)  Calling method AddExample
+2014-03-24T14:25:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:25:30Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:25:30Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:29:21Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:29:21Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:40)  Json Parsing : OK
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:29:21Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:29:21Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:29:21Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:44)  Calling method AddExample
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:29:21Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:29:21Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:29:21Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:40)  Json Parsing : OK
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:29:21Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:29:21Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:29:21Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:44)  Calling method AddExample
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:29:21Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:29:21Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:29:39Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:29:39Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:40)  Json Parsing : OK
+2014-03-24T14:29:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:29:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:29:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:29:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:29:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:29:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:29:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:29:39Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:44)  Calling method AddExample
+2014-03-24T14:29:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:29:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:29:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:29:57Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:29:57Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:40)  Json Parsing : OK
+2014-03-24T14:29:57Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:29:57Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:29:57Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:29:57Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:29:57Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:29:57Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:29:57Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:29:57Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:44)  Calling method AddExample
+2014-03-24T14:29:57Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:29:57Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:29:57Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:29:57Z ERROR Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:59)  ErrorCode : -10 : '' argument is missing
+2014-03-24T14:29:57Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:69)  Sending Response Back
+2014-03-24T14:30:04Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:30:04Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:40)  Json Parsing : OK
+2014-03-24T14:30:04Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:30:04Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:30:04Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:30:04Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:30:04Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:30:04Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:30:04Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:30:04Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:44)  Calling method AddExample
+2014-03-24T14:30:04Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:30:04Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:30:04Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:30:04Z ERROR Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:59)  ErrorCode : -10 : 'name' argument is missing
+2014-03-24T14:30:04Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:69)  Sending Response Back
+2014-03-24T14:30:19Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:30:19Z FATAL Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:33)  Json Parse Error
+2014-03-24T14:31:01Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:31:01Z FATAL Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:33)  Json Parse Error
+2014-03-24T14:31:23Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:31:23Z FATAL Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:33)  Json Parse Error
+2014-03-24T14:31:36Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:31:36Z FATAL Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:33)  Json Parse Error
+2014-03-24T14:31:37Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:25)  Parsing Json Request
+2014-03-24T14:31:37Z FATAL Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:33)  Json Parse Error
+2014-03-24T14:32:53Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:32:53Z FATAL Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:34)  Json Parse Error
+2014-03-24T14:32:53Z ERROR Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:60)  ErrorCode : -32823 : Json Parsing Error
+2014-03-24T14:32:53Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:33:10Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:33:10Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:33:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:33:10Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:33:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:33:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:33:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:33:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:33:10Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:33:10Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:33:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:33:10Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:33:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:33:10Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  name appear : OK
+2014-03-24T14:33:10Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:33:10Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:33:12Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:33:12Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:33:12Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:33:12Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:33:12Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:33:12Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  name appear : OK
+2014-03-24T14:33:12Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:33:12Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:33:12Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:33:12Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:33:12Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:33:12Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:33:12Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:33:12Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:33:12Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  name appear : OK
+2014-03-24T14:33:12Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:33:12Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:33:19Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:33:19Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:33:19Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:33:19Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:33:19Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:33:19Z ERROR Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:60)  ErrorCode : -32821 : 'jsonrpc' argument is missing
+2014-03-24T14:33:19Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:33:23Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:33:23Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:33:23Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:33:23Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:33:23Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:33:23Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:33:23Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:33:23Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:33:23Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:33:23Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:33:23Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:33:23Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:33:23Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:33:23Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  name appear : OK
+2014-03-24T14:33:23Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:33:23Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:36:34Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:36:34Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:36:34Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:34Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:36:34Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:36:34Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:36:34Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:36:34Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:36:34Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:36:34Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:36:34Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:34Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:36:34Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:36:34Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  name appear : OK
+2014-03-24T14:36:34Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:36:34Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:36:35Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:36:35Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:36:35Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:35Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:36:35Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:36:35Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:36:35Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:36:35Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:36:35Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:36:35Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:36:35Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:35Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:36:35Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:36:35Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  name appear : OK
+2014-03-24T14:36:35Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:36:35Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:36:36Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:36:36Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:36:36Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:36Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:36:36Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:36:36Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:36:36Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:36:36Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:36:36Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:36:36Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:36:36Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:36Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:36:36Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:36:36Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  name appear : OK
+2014-03-24T14:36:36Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:36:36Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:36:38Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:36:38Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:36:38Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:38Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:36:38Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:36:38Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:36:38Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:36:38Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:36:38Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:36:38Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:36:38Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:38Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:36:38Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:36:38Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:36:39Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:36:39Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:36:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:36:39Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:36:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:36:39Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:36:39Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:36:39Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:36:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:36:39Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:36:39Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:36:39Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:36:39Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:36:40Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:36:40Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:36:40Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:40Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:36:40Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:36:40Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:36:40Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:36:40Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:36:40Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:36:40Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:36:40Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:40Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:36:40Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:36:40Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:36:54Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:36:54Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:36:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:54Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:36:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:36:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:36:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:36:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:36:54Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:36:54Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:36:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:36:54Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:36:54Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:36:54Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:38:47Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:38:47Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:38:47Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:38:47Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:38:47Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:38:47Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:38:47Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:38:47Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:38:47Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:38:47Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:38:47Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:38:47Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:38:47Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:38:47Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  name appear : OK
+2014-03-24T14:38:47Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:38:47Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:38:54Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:38:54Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:38:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:38:54Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:38:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:38:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:38:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:38:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:38:54Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:38:54Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:38:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:38:54Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:38:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:38:54Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  name appear : OK
+2014-03-24T14:38:54Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:38:54Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
+2014-03-24T14:38:55Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:26)  Parsing Json Request
+2014-03-24T14:38:55Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:41)  Json Parsing : OK
+2014-03-24T14:38:55Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:38:55Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "handle" arguments checking
+2014-03-24T14:38:55Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param jsonrpc
+2014-03-24T14:38:55Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  jsonrpc appear : OK
+2014-03-24T14:38:55Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param method
+2014-03-24T14:38:55Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  method appear : OK
+2014-03-24T14:38:55Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call handle are presents
+2014-03-24T14:38:55Z DEBUG Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:45)  Calling method AddExample
+2014-03-24T14:38:55Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:12)  Checking arguments
+2014-03-24T14:38:55Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:18)  Method "AddExample" arguments checking
+2014-03-24T14:38:55Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:22)  Checking param name
+2014-03-24T14:38:55Z DEBUG Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:27)  name appear : OK
+2014-03-24T14:38:55Z INFO  Erol\Arguments.check(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/Arguments.php:30)  All parameters required to call AddExample are presents
+2014-03-24T14:38:55Z INFO  Erol\JsonRPCServer.handle(/home/erol/php/personal_projets/JsonRpcPhpBackEnd/vendor/erol/Erol/JsonRPCServer.php:70)  Sending Response Back
