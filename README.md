@@ -114,6 +114,7 @@ function AddExample($params)
 ```
 
 In order to test the example, use for example POSTMAN chrome extension to send some JSON to your Json-RPC 2.0 API.
+
 ```json
 	{
 	    "method": "AddExample",
@@ -133,6 +134,9 @@ or
 		"id": 2
 	}
 ```
+
+You call is done on JsonRpc.php file at the root of the project. 
+Notice that in this file is loaded the Request Handler Class for the **Erol\JsonRpcServer**.
 
 
 ###### Note :
